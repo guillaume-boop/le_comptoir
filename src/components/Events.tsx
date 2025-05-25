@@ -137,7 +137,7 @@ const Events = () => {
         </div>
 
         {/* Newsletter signup */}
-        <div className="mt-16 text-center">
+        <div className="mt-16 text-center hidden">
           <div className="max-w-lg mx-auto bg-gradient-to-r from-deep-black/50 to-gray-900/50 border border-mint-green/20 rounded-2xl p-8">
             <h3 className="font-sora font-bold text-2xl text-pure-white mb-4">
               Ne ratez aucun événement
