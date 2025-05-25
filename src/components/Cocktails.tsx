@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import CocktailCard from './CocktailCard';
+import {  mojitoRoyal, neonDreams, gardenFresh, virginMango, cosmopolitan, urbanJungle, midnightExpress, sakuraFizz} from '@/components/assets/img/cocktails';
 
 const Cocktails = () => {
   const [filter, setFilter] = useState('Tous');
@@ -11,56 +12,56 @@ const Cocktails = () => {
       description: "La délicatesse du yuzu, l'effervescence du prosecco, une touche de fleur de cerisier",
       price: "14",
       category: "Créations",
-      imageSrc: "./src/components/assets/img/cocktails/sakura_fizz.png"
+      imageSrc: sakuraFizz
     },
     {
       name: "Urban Jungle",
       description: "Gin artisanal, basilic thaï, concombre, sirop de verveine et zeste de citron vert",
       price: "13",
       category: "Créations",
-      imageSrc: "./src/components/assets/img/cocktails/urban_jungle.png"
+      imageSrc: urbanJungle
     },
     {
       name: "Neon Dreams",
       description: "Vodka premium, liqueur de litchi, eau de rose, champagne rosé et poudre scintillante",
       price: "16",
       category: "Créations",
-      imageSrc: "./src/components/assets/img/cocktails/neon_dreams.png"
+      imageSrc: neonDreams
     },
     {
       name: "Midnight Express",
       description: "Whisky tourbé, liqueur de café, sirop d'érable, bitter chocolat et écume de lait",
       price: "15",
       category: "Créations",
-      imageSrc: "./src/components/assets/img/cocktails/midnight_express.png"
+      imageSrc: midnightExpress
     },
     {
       name: "Mojito Royal",
       description: "Rhum blanc cubain, menthe fraîche, citron vert, eau gazeuse et sucre de canne",
       price: "11",
       category: "Classiques",
-      imageSrc: "./src/components/assets/img/cocktails/mojito_royal.png"
+      imageSrc: mojitoRoyal
     },
     {
       name: "Cosmopolitan",
       description: "Vodka premium, liqueur de cranberry, triple sec, jus de citron vert frais",
       price: "12",
       category: "Classiques",
-      imageSrc: "./src/components/assets/img/cocktails/cosmopolitan.png"
+      imageSrc: cosmopolitan
     },
     {
       name: "Virgin Mango",
       description: "Purée de mangue, jus de passion, citron vert, eau gazeuse et menthe fraîche",
       price: "8",
       category: "Sans alcool",
-      imageSrc: "./src/components/assets/img/cocktails/virgin_mango.png"
+      imageSrc: virginMango
     },
     {
       name: "Garden Fresh",
       description: "Concombre, basilic, citron vert, sirop d'agave et eau pétillante artisanale",
       price: "7",
       category: "Sans alcool",
-      imageSrc: "./src/components/assets/img/cocktails/garden_fresh.png"
+      imageSrc: gardenFresh
     }
   ];
 
